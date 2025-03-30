@@ -1,0 +1,57 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (server_turtle) JobQueued: {'identifier': 'server_turtle', 'dependencies': OrderedDict()}
+[0.000411] (server_turtle) JobStarted: {'identifier': 'server_turtle'}
+[0.099196] (-) TimerEvent: {}
+[0.199471] (-) TimerEvent: {}
+[0.299756] (-) TimerEvent: {}
+[0.400195] (-) TimerEvent: {}
+[0.500575] (-) TimerEvent: {}
+[0.600954] (-) TimerEvent: {}
+[0.681079] (server_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle', 'env': {'HOSTNAME': 'yadu-rogzephyrusg14ga401iu', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/server_turtlebot', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros2_ws/server_turtlebot/server_turtle/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/root/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'PWD': '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'PYTHONPATH': '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages:/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle:/home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1'}, 'shell': False}
+[0.701090] (-) TimerEvent: {}
+[0.801477] (-) TimerEvent: {}
+[0.901850] (-) TimerEvent: {}
+[0.965335] (server_turtle) StdoutLine: {'line': b'running develop\n'}
+[0.965665] (server_turtle) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[0.965756] (server_turtle) StderrLine: {'line': b'!!\n'}
+[0.965826] (server_turtle) StderrLine: {'line': b'\n'}
+[0.965893] (server_turtle) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.965960] (server_turtle) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[0.966028] (server_turtle) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.966094] (server_turtle) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.966157] (server_turtle) StderrLine: {'line': b'\n'}
+[0.966219] (server_turtle) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[0.966287] (server_turtle) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.966355] (server_turtle) StderrLine: {'line': b'\n'}
+[0.966422] (server_turtle) StderrLine: {'line': b'!!\n'}
+[0.966488] (server_turtle) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[0.978584] (server_turtle) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.978812] (server_turtle) StderrLine: {'line': b'  File "/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/setup.py", line 5, in <module>\n'}
+[0.979059] (server_turtle) StderrLine: {'line': b'    setup(\n'}
+[0.979115] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 117, in setup\n'}
+[0.979169] (server_turtle) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[0.979219] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/core.py", line 186, in setup\n'}
+[0.979273] (server_turtle) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[0.979326] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/core.py", line 202, in run_commands\n'}
+[0.979376] (server_turtle) StderrLine: {'line': b'    dist.run_commands()\n'}
+[0.979429] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py", line 983, in run_commands\n'}
+[0.979480] (server_turtle) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[0.979532] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/dist.py", line 999, in run_command\n'}
+[0.979582] (server_turtle) StderrLine: {'line': b'    super().run_command(command)\n'}
+[0.979635] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py", line 1001, in run_command\n'}
+[0.979689] (server_turtle) StderrLine: {'line': b'    cmd_obj.ensure_finalized()\n'}
+[0.979743] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py", line 124, in ensure_finalized\n'}
+[0.979797] (server_turtle) StderrLine: {'line': b'    self.finalize_options()\n'}
+[0.979851] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/develop.py", line 51, in finalize_options\n'}
+[0.979905] (server_turtle) StderrLine: {'line': b'    easy_install.finalize_options(self)\n'}
+[0.979995] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/command/easy_install.py", line 251, in finalize_options\n'}
+[0.980176] (server_turtle) StderrLine: {'line': b"    'dist_fullname': self.distribution.get_fullname(),\n"}
+[0.980239] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_core_metadata.py", line 272, in get_fullname\n'}
+[0.980298] (server_turtle) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[0.980343] (server_turtle) StderrLine: {'line': b'  File "/usr/local/lib/python3.10/dist-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname\n'}
+[0.980392] (server_turtle) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[0.980439] (server_turtle) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[1.001956] (-) TimerEvent: {}
+[1.015171] (server_turtle) CommandEnded: {'returncode': 1}
+[1.015622] (server_turtle) JobEnded: {'identifier': 'server_turtle', 'rc': 1}
+[1.025884] (-) EventReactorShutdown: {}

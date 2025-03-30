@@ -1,0 +1,26 @@
+[0.519s] Invoking command in '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle': PYTHONPATH=/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/build --no-deps symlink_data
+[0.723s] running develop
+[0.723s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.723s]   warnings.warn(
+[0.837s] running egg_info
+[0.838s] creating server_turtle.egg-info
+[0.838s] writing server_turtle.egg-info/PKG-INFO
+[0.838s] writing dependency_links to server_turtle.egg-info/dependency_links.txt
+[0.838s] writing entry points to server_turtle.egg-info/entry_points.txt
+[0.838s] writing requirements to server_turtle.egg-info/requires.txt
+[0.839s] writing top-level names to server_turtle.egg-info/top_level.txt
+[0.839s] writing manifest file 'server_turtle.egg-info/SOURCES.txt'
+[0.839s] reading manifest file 'server_turtle.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'server_turtle.egg-info/SOURCES.txt'
+[0.841s] running build_ext
+[0.841s] Creating /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages/server-turtle.egg-link (link to .)
+[0.841s] Installing websocket_bridge script to /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/server_turtle
+[0.842s] 
+[0.842s] Installed /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle
+[0.842s] running symlink_data
+[0.842s] creating /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/share/ament_index
+[0.842s] creating /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/share/ament_index/resource_index
+[0.842s] creating /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/share/ament_index/resource_index/packages
+[0.843s] symbolically linking /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/resource/server_turtle -> /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/share/ament_index/resource_index/packages
+[0.843s] symbolically linking /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/package.xml -> /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/share/server_turtle
+[0.872s] Invoked command in '/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle' returned '0': PYTHONPATH=/home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle/build --no-deps symlink_data

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing server_turtle.egg-info/PKG-INFO
+writing dependency_links to server_turtle.egg-info/dependency_links.txt
+writing entry points to server_turtle.egg-info/entry_points.txt
+writing requirements to server_turtle.egg-info/requires.txt
+writing top-level names to server_turtle.egg-info/top_level.txt
+reading manifest file 'server_turtle.egg-info/SOURCES.txt'
+writing manifest file 'server_turtle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/python3.10/site-packages/server-turtle.egg-link (link to .)
+Installing websocket_bridge script to /home/ros2_ws/server_turtlebot/server_turtle/install/server_turtle/lib/server_turtle
+
+Installed /home/ros2_ws/server_turtlebot/server_turtle/build/server_turtle
+running symlink_data

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.space-mono-bold-italic {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+pre {
+        background-color: #f0f0f0;
+        /* Light gray background */
+        padding: 10px;
+        border-radius: 5px;
+        font-family: 'Space Mono', monospace;
+        /* Use a monospace font */
+        white-space: pre-wrap;
+        /* Enable word wrapping */
+    }
+
+code {
+        color: #333;
+        /* Dark text color */
+        display: inline;
+        /* Make code inline */
+    }
